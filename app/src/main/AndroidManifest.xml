@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alfia.monitoringjalan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GOOGLE_MAPS_API_KEY"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAs7Kv21kSL7WiO6WEOgCruCh5DKn2jMRI" />
+
+        <!--AIzaSyAs7Kv21kSL7WiO6WEOgCruCh5DKn2jMRI-->
+
+        <!-- android:value="AIzaSyBLmEmqHipDKaMtUAsSXdbeKmXKiEw9_ec" -->
+
+        <activity android:name=".Daftar_Ruas">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tambah_Photo" />
+        <activity android:name=".Tambah_Kerusakan" />
+        <activity android:name=".Tambah_Coordinates" />
+        <activity android:name=".Tambah_Pemanfaatan" />
+        <activity android:name=".LoginActivity" />oo
+        <activity android:name=".Daftar_Kerusakan" />
+        <activity android:name=".Daftar_Photo" />
+        <activity android:name=".Daftar_Pemanfaatan" />
+        <activity android:name=".Edit_Pemanfaatan" />
+        <activity android:name=".Edit_Kerusakan" />
+        <!--<activity android:name=".LoginActivity" />-->
+
+    </application>
+</manifest>

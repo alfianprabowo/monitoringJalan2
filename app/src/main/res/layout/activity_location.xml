@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".get_location.LocationActivity">
+
+    <Button
+        android:id="@+id/buttonget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/buttonmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Draw Map"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/button2point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Draw 2 points"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+</android.support.constraint.ConstraintLayout>
